@@ -69,8 +69,8 @@
         layer_3 {
             bindings = <
 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans  &trans    &kp LG(K_PREVIOUS)  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp C_MUTE  &kp LG(C_VOLUME_DOWN)  &kp C_VOLUME_UP
-&trans                &trans                &trans  &trans  &trans  &trans    &trans              &trans            &trans      &trans      &trans                 &trans
-&trans                &trans                &trans  &trans  &trans  &trans    &trans              &trans            &trans      &trans      &trans                 &trans
+&bt BT_CLR_ALL        &trans                &trans  &trans  &trans  &trans    &trans              &trans            &trans      &trans      &trans                 &trans
+&bt BT_DISC 0         &trans                &trans  &trans  &trans  &trans    &trans              &trans            &trans      &trans      &trans                 &trans
                                                     &trans  &trans  &trans    &trans              &trans            &trans
             >;
         };
