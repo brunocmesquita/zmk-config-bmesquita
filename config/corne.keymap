@@ -16,6 +16,11 @@
             bindings = <&mo 3>;
             key-positions = <37 40>;
         };
+
+        numberpad {
+            bindings = <&mo 3>;
+            key-positions = <37 24>;
+        };
     };
 
     keymap {
@@ -70,7 +75,7 @@
             bindings = <
 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans  &kp LS(LG(NUMBER_4))    &kp N7        &kp N8        &kp N9        &kp C_MUTE  &kp LG(C_VOLUME_DOWN)  &kp C_VOLUME_UP
 &bt BT_CLR_ALL        &trans                &trans  &trans  &trans  &trans                  &kp N4        &kp N5        &kp NUMBER_6  &trans      &trans                 &trans
-&bt BT_DISC 0         &trans                &trans  &trans  &trans  &trans                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &trans                 &trans
+&trans                &trans                &trans  &trans  &trans  &trans                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &trans                 &trans
                                                     &trans  &trans  &trans                  &trans        &trans        &trans
             >;
         };
