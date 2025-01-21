@@ -14,7 +14,7 @@
 
         l3 {
             bindings = <&mo 3>;
-            key-positions = <37 40>;
+            key-positions = <38 39>;
         };
 
         numberpad {
